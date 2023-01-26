@@ -14,6 +14,8 @@ from interpensembles.module import CIFAR10Module,CIFAR10EnsembleModule,CIFAR10In
 
 from cifar10_ood.data import CINIC10_Data,CIFAR10_CData
 
+#lets work on this 
+
 modules = {"base":CIFAR10Module,
         "ensemble":CIFAR10EnsembleModule,
         "interpensemble":CIFAR10InterEnsembleModule}
